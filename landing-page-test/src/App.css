@@ -15,7 +15,7 @@
 	}
 }
 
-.App-header {
+/* .App-header {
 	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
@@ -24,14 +24,71 @@
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
-}
+} */
 
 .App-link {
 	color: #61dafb;
 }
 
 .test {
-	background-image: url('https://images.unsplash.com/photo-1684258663024-00ddd14a0eae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60');
+	/* background-image: url('https://images.unsplash.com/photo-1684258663024-00ddd14a0eae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60'); */
+}
+
+.title {
+	font-size: 55px;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+.sneakersText {
+	color: #ffffff;
+}
+
+.finalHeader {
+	color: #ffffff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.slide {
+	height: 100vh;
+	width: 100vw;
+}
+
+.wrapper {
+	display: flex;
+	width: 200vh;
+	transform: rotate(90deg) translateY(-100vh);
+	transform-origin: top left;
+	background: #333;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	transform: rotate(-90deg) translateX(-100vh);
+	transform-origin: top left;
+	position: absolute;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vh;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.l1 {
+	background-image: url('AirJordan1.png');
 }
 
 @keyframes App-logo-spin {
