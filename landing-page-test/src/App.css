@@ -56,8 +56,8 @@
 }
 
 .slide {
-	height: 100vh;
-	width: 100vw;
+	height: 200vh;
+	width: 200vw;
 }
 
 .wrapper {
@@ -78,14 +78,28 @@
 	overflow-y: scroll;
 }
 
-.layer {
-	position: absolute;
+.layer1 {
+	/* position: absolute;
 	top: 0;
 	left: 0;
 	height: 100vh;
 	width: 100vh;
 	background-position: bottom;
-	background-size: cover;
+	background-size: cover; */
+	padding-top: 21px;
+	padding-bottom: 683px;
+	padding-left: 285px;
+	padding-right: 349px;
+	font-size: 55px;
+	font-weight: 300;
+	line-height: 65px;
+	color: #ffffff;
+}
+
+.layer1 p {
+	/* color: white; */
+	width: 855px;
+	height: 511px;
 }
 
 .l1 {
@@ -93,10 +107,62 @@
 	font-weight: 300;
 	line-height: 65px;
 	color: #ffffff;
+	position: absolute;
+	width: 855px;
+	height: 511px;
+	top: 189px;
+	left: 285px;
 }
 
-.h1 {
+.layer2 {
+	padding-left: 349px;
+	padding-top: 250px;
+	padding-right: 243px;
+}
+
+.link {
+	padding-top: 91px;
+	padding-top: 91px;
+	position: absolute;
+	right: 0px;
+}
+
+.link a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nytLink a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 55px;
+	font-weight: 300;
+	line-height: 65px;
+	padding-bottom: 116px;
+}
+
+h1 {
 	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+.lastSlide {
+	font-size: 40px;
+	width: 15000px;
+	height: 101px;
+	padding-left: 308px;
+	padding-top: 459px;
 }
 
 .l2 {
